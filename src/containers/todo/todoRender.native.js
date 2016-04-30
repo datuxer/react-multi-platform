@@ -5,7 +5,10 @@ import React, {
   Text
 } from 'react-native';
 
-const styles = StyleSheet.create(require('./todo.styles'));
+import extStyles from './todo.styles';
+
+// const styles = StyleSheet.create(require('./todo.styles'));
+const styles = StyleSheet.create(extStyles);
 
 export default function (props, state) {
   return (

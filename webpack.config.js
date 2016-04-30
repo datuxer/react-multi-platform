@@ -28,7 +28,8 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
     new HtmlWebpackPlugin({
       title: 'React Multi Platform',
-      template: './index.html'
+      template: './index.html',
+      inject: false
     })
   ],
 
@@ -37,7 +38,7 @@ module.exports = {
       {
         test: /\.js/,
         exclude: /node_modules|dist/,
-        loader: 'babel-loader'
+        loader: 'babel'
       },
       {
         test: /\.css/,
