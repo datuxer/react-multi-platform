@@ -17,9 +17,8 @@ Shared React &amp; React-Native codebase for use on the web, Desktop, iOS, and A
 ## Supported Platforms
 * **Web:** Via React
 * **iOS & Android:** Via React-Native
-* **OSX & Windows:** Via Electron
-
-Note: Would love someone with Linux to let me know how it's working over there. 
+* **OSX & Windows & Linux:** Via Electron
+ 
 
 ## Other Tools
 * **Builds**: Webpack (Perhaps Gulp at a later point)
@@ -39,8 +38,14 @@ $ npm run webpack:dev
 
 - Open up http://localhost:8080 in your browser
 ```
+Or your IP address
 
 ## iOS:
+First time looks like you mus do:
+```
+react-native bundle --platfrom ios --dev false --entry-file index.ios.js --bundle-output ios/main.jsbundle
+```
+
 ```
 $ react-native start
 
