@@ -1,6 +1,6 @@
 {
   "name": "react-muli-platform",
-  "version": "0.1.0",
+  "version": "0.27.0",
   "description": "Shared React &amp; React-Native codebase for use on the web, desktop (OSX/Win/Linux), iOS, and Android.",
   "keywords": [
     "react",
