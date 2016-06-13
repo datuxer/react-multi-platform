@@ -1,4 +1,4 @@
-NOTE: Last commit updates to RN 0.26RC si react 15. Tested only on Android, Electron and Web under Windows.
+NOTE: Last commit tested only on Android, Electron and Web under Windows.
 
 # WIP
 This repo is currently under active development and is prone to not quite working 100%. Docs may or may not be updated.
